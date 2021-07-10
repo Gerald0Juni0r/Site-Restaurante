@@ -7,35 +7,40 @@
     width: 58px;
     display: inline-block;
     margin: 5px;
-    font-family: 'Roboto', sans-serif;
-        
+    font-family: 'Roboto', sans-serif;        
 }
 #reservations{
-    width: 110px;
-    
+    width: 110px;    
 }
 #facebook, #instagram, #foursquare, #yelp{
     display: inline-block;
     text-align: center;
     margin: 0px 10px 10px;
 }
+#div1{
+    margin: 0px auto 10px 0px;
+    background-image: url(img/comida1.jpg) ;
+    padding: 100px 0px 70px 40px;
+    
+}
+#div2{
+    margin: 0px auto 10px 0px;
+    padding: 100px 100px 70px 40px;  
+}
+#div3{
+    color: white;
+    text-align: center; 
+    margin: 0px auto 10px 0px;
+    background-image: url(img/comida2.jpg) ;
+    padding: 100px 0px 80px 40px;   
+}
+#div1, #div2, #div3{
+    font-family: 'Noto Sans JP', sans-serif; 
+}
+#sample{
+    text-align: center;
+}
 
-a:link {
-    color: black;  
-    text-decoration: none;
-}
-a:visited {
-    color: black;  
-    text-decoration: none;
-}
-a:hover {
-    color: black;  
-    text-decoration: none;
-}
-a:active {
-    color: black;  
-    text-decoration: none;
-}
 
 
 .titulo{  
@@ -59,4 +64,46 @@ a:active {
 }
 .ul2{
     padding-left: 0px;
+}
+.pt1{
+    margin: 50px auto 0px 0px;
+    color: white;
+}
+.paragrafo1{
+    padding: 0px 350px 0px 0px;
+    width: 250px;
+    height: 120px;
+    color: white;
+}
+.paragrafo2{
+    padding: 0px 350px 0px 0px;
+    width: 250px;
+    height: 120px;
+}
+.button{
+    background-color: rgb(138, 126, 98);
+    padding: 10px 15px;
+}
+.TitlleMenu{
+    margin: 50px auto 30px auto;
+}
+.SpanMenu{
+    margin: 30px 10px 40px 80px;
+    display: inline-block;
+}
+.button2{
+    
+    background-color: rgb(138, 126, 98);
+    padding: 10px 15px;
+}
+.Chef, .Restaurante{
+    float:right;
+    padding-right: 70px;
+}
+
+
+
+a:link, a:visited, a:hover, a:active {
+    color: black;  
+    text-decoration: none;
 }
